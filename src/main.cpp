@@ -53,7 +53,17 @@ void setMotors(int leftspeed, int rightspeed){
   analogWrite(PWMB, rightspeed);
 }
 void setup() {
-  
+  //setup the pins for the motors
+  //left motor
+  pinMode(AIN1, OUTPUT);
+  pinMode(AIN2, OUTPUT);
+  pinMode(PWMA, OUTPUT);
+  //right motor
+  pinMode(BIN1, OUTPUT);
+  pinMode(BIN2, OUTPUT);
+  pinMode(PWMB, OUTPUT);
+  //standby pin
+  pinMode(STBY, OUTPUT);
 }
 
 void loop() {
