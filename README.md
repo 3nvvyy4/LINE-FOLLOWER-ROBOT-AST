@@ -38,11 +38,11 @@ The motors are controlled using:
 
 ```cpp
 setMotors(leftSpeed, rightSpeed);
-example:
-setMotors(100, 100);   // Forward
-setMotors(-100, -100); // Backward
-setMotors(100, 50);    // Curve right
-setMotors(50, 100);    // Curve left
+//example:
+//setMotors(100, 100);   // Forward
+//setMotors(-100, -100); // Backward
+//setMotors(100, 50);    // Curve right
+//setMotors(50, 100);    // Curve left
 ```
 ## Project Structure:
 src/
